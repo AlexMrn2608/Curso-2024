@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://www.freepik.es/vector-gratis/fondo-l-neas-din-micas-estilo-papel_15442020.htm#position=1);
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: rgb(44, 42, 42);
+}
+header{
+    background-color: dimgray;
+    padding: 1rem 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(61, 58, 58);
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+}
+
+/* Secciones */
+
+section{
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(5, 5, 5);
+}
+
+h2{
+    color: rgb(98, 101, 106);
+    text-align: center;
+    margin-bottom:  1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    color: #3d3e50
+}
+
+input{
+    padding: 0rem;
+    border: 1px solid rgb(182, 179, 179);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button{
+    padding: 0rem;
+    background-color: aliceblue;
+    border: 1px solid rgb(182, 179, 179);
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: royalblue;
+}
+
+    /* Footer */
+footer{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav li{
+        margin-bottom: 1rem;
+    }
+
+    section{
+        padding: 1rem;
+        margin: 1rem;
+        
+    }
+}
